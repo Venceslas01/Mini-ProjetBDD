@@ -1,0 +1,9 @@
+SOURCE /home/venceslas/MiniProjetBDD/projetBDB.sql
+SOURCE /home/venceslas/MiniProjetBDD/InsertBDD.sql
+SOURCE /home/venceslas/MiniProjetBDD/requeteBDD.sql
+
+Information :
+
+# Remplacer (/home/venceslas) par le chemin.
+
+# Dans le fichier "InsertBDD.sql" il faut remplacer (/home/venceslas) par le chemin de votre PC.

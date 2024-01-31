@@ -1,0 +1,1027 @@
+db.personnes.insert([
+    {
+        "nom": "Martin",
+        "prenom": "Lucas",
+        "dateDeNaissance": "1990-01-01",
+        "adresse": {
+            "rue": "10 Rue de Paris",
+            "codePostal": "75001",
+            "ville": "Paris"
+        },
+        "numeroTelephone": "0123456789",
+        "mail": "lucas.martin@example.com"
+    },
+    {
+        "nom": "Bernard",
+        "prenom": "Emma",
+        "dateDeNaissance": "1985-02-02",
+        "adresse": {
+            "rue": "20 Rue de Lyon",
+            "codePostal": "69002",
+            "ville": "Lyon"
+        },
+        "numeroTelephone": "0123456790",
+        "mail": "emma.bernard@example.com"
+    },
+    {
+        "nom": "Thomas",
+        "prenom": "Jade",
+        "dateDeNaissance": "1980-03-03", 
+        "adresse": {
+            "rue": "30 Rue de Marseille",
+            "codePostal": "13003",
+            "ville": "Marseille"
+        },
+        "numeroTelephone": "0123456791",
+        "mail": "jade.thomas@example.com"
+    },
+    {
+        "nom": "Durand",
+        "prenom": "Gabriel",
+        "dateDeNaissance": "1993-07-07",
+        "adresse": {
+            "rue": "70 Rue de Nice",
+            "codePostal": "06070",
+            "ville": "Nice"
+        },
+        "numeroTelephone": "0123456795",
+        "mail": "gabriel.durand@example.com"
+    },
+    {
+        "nom": "Leroy",
+        "prenom": "Juliette",
+        "dateDeNaissance": "1998-08-08",
+        "adresse": {
+            "rue": "80 Rue de Strasbourg",
+            "codePostal": "67080",
+            "ville": "Strasbourg"
+        },
+        "numeroTelephone": "0123456796",
+        "mail": "juliette.leroy@example.com"
+    },
+    {
+        "nom": "Moreau",
+        "prenom": "Clara",
+        "dateDeNaissance": "1987-09-09",
+        "adresse": {
+            "rue": "90 Rue de Montpellier",
+            "codePostal": "34090",
+            "ville": "Montpellier"
+        },
+        "numeroTelephone": "0123456797",
+        "mail": "clara.moreau@example.com"
+    },
+    {
+        "nom": "Blanchard",
+        "prenom": "Sophie",
+        "dateDeNaissance": "1992-01-15",
+        "adresse": {
+            "rue": "110 Rue de Rennes",
+            "codePostal": "35000",
+            "ville": "Rennes"
+        },
+        "numeroTelephone": "0123456701",
+        "mail": "sophie.blanchard@example.com"
+    },
+    {
+        "nom": "Girard",
+        "prenom": "Axel",
+        "dateDeNaissance": "1994-02-18",
+        "adresse": {
+            "rue": "120 Rue de Brest",
+            "codePostal": "29200",
+            "ville": "Brest"
+        },
+        "numeroTelephone": "0123456702",
+        "mail": "axel.girard@example.com"
+    },
+    {
+        "nom": "Lemoine",
+        "prenom": "Chloé",
+        "dateDeNaissance": "1989-03-21",
+        "adresse": {
+            "rue": "130 Rue de Limoges",
+            "codePostal": "87000",
+            "ville": "Limoges"
+        },
+        "numeroTelephone": "0123456703",
+        "mail": "chloe.lemoine@example.com"
+    },
+    {
+        "nom": "Lopez",
+        "prenom": "Mélanie",
+        "dateDeNaissance": "1991-07-15",
+        "adresse": {
+            "rue": "170 Rue de Saint-Étienne",
+            "codePostal": "42000",
+            "ville": "Saint-Étienne"
+        },
+        "numeroTelephone": "0123456707",
+        "mail": "melanie.lopez@example.com"
+    },
+    {
+        "nom": "Roger",
+        "prenom": "Victoria",
+        "dateDeNaissance": "1996-09-25",
+        "adresse": {
+            "rue": "190 Rue d'Angers",
+            "codePostal": "49000",
+            "ville": "Angers"
+        },
+        "numeroTelephone": "0123456709",
+        "mail": "victoria.roger@example.com"
+    },
+    {
+        "nom": "Morel",
+        "prenom": "Alice",
+        "dateDeNaissance": "1993-11-05",
+        "adresse": {
+            "rue": "210 Rue de Amiens",
+            "codePostal": "80000",
+            "ville": "Amiens"
+        },
+        "numeroTelephone": "0123456711",
+        "mail": "alice.morel@example.com"
+    },
+    {
+        "nom": "Bonnet",
+        "prenom": "Charlotte",
+        "dateDeNaissance": "1997-01-20",
+        "adresse": {
+            "rue": "230 Rue de Villeurbanne",
+            "codePostal": "69100",
+            "ville": "Villeurbanne"
+        },
+        "numeroTelephone": "0123456713",
+        "mail": "charlotte.bonnet@example.com"
+    },
+    {
+        "nom": "Dupuis",
+        "prenom": "Émilie",
+        "dateDeNaissance": "1995-01-10",
+        "adresse": {
+            "rue": "240 Rue de Perpignan",
+            "codePostal": "66000",
+            "ville": "Perpignan"
+        },
+        "numeroTelephone": "0123456714",
+        "mail": "emilie.dupuis@example.com"
+    },
+    {
+        "nom": "Simon",
+        "prenom": "Vincent",
+        "dateDeNaissance": "1986-02-15",
+        "adresse": {
+            "rue": "250 Rue de Caen",
+            "codePostal": "14000",
+            "ville": "Caen"
+        },
+        "numeroTelephone": "0123456715",
+        "mail": "vincent.simon@example.com"
+    },
+    {
+        "nom": "Laurent",
+        "prenom": "Marie",
+        "dateDeNaissance": "1992-03-22",
+        "adresse": {
+            "rue": "260 Rue de Nancy",
+            "codePostal": "54000",
+            "ville": "Nancy"
+        },
+        "numeroTelephone": "0123456716",
+        "mail": "marie.laurent@example.com"
+    },
+    {
+        "nom": "Lefevre",
+        "prenom": "Stéphane",
+        "dateDeNaissance": "1983-04-28",
+        "adresse": {
+            "rue": "270 Rue de Metz",
+            "codePostal": "57000",
+            "ville": "Metz"
+        },
+        "numeroTelephone": "0123456717",
+        "mail": "stephane.lefevre@example.com"
+    },
+    {
+        "nom": "Michel",
+        "prenom": "Élise",
+        "dateDeNaissance": "1994-05-05",
+        "adresse": {
+            "rue": "280 Rue de Rouen",
+            "codePostal": "76000",
+            "ville": "Rouen"
+        },
+        "numeroTelephone": "0123456718",
+        "mail": "elise.michel@example.com"
+    },
+    {
+        "nom": "Perez",
+        "prenom": "Cédric",
+        "dateDeNaissance": "1990-06-11",
+        "adresse": {
+            "rue": "290 Rue de Mulhouse",
+            "codePostal": "68100",
+            "ville": "Mulhouse"
+        },
+        "numeroTelephone": "0123456719",
+        "mail": "cedric.perez@example.com"
+    },
+    {
+        "nom": "Giraud",
+        "prenom": "Anaïs",
+        "dateDeNaissance": "1989-07-17",
+        "adresse": {
+            "rue": "300 Rue de Reims",
+            "codePostal": "51100",
+            "ville": "Reims"
+        },
+        "numeroTelephone": "0123456720",
+        "mail": "anais.giraud@example.com"
+    },
+    {
+        "nom": "Lemoine",
+        "prenom": "Pierre",
+        "dateDeNaissance": "1988-08-23",
+        "adresse": {
+            "rue": "310 Rue de Rueil-Malmaison",
+            "codePostal": "92500",
+            "ville": "Rueil-Malmaison"
+        },
+        "numeroTelephone": "0123456721",
+        "mail": "pierre.lemoine@example.com"
+    },
+    {
+        "nom": "Henry",
+        "prenom": "Laetitia",
+        "dateDeNaissance": "1991-09-29",
+        "adresse": {
+            "rue": "320 Rue de Levallois-Perret",
+            "codePostal": "92300",
+            "ville": "Levallois-Perret"
+        },
+        "numeroTelephone": "0123456722",
+        "mail": "laetitia.henry@example.com"
+    },
+    {
+        "nom": "Roux",
+        "prenom": "Antoine",
+        "dateDeNaissance": "1993-10-06",
+        "adresse": {
+            "rue": "330 Rue de Saint-Priest",
+            "codePostal": "69800",
+            "ville": "Saint-Priest"
+        },
+        "numeroTelephone": "0123456723",
+        "mail": "antoine.roux@example.com"
+    },
+    {
+        "nom": "Dupont",
+        "prenom": "Amélie",
+        "dateDeNaissance": "1991-05-12",
+        "adresse": {
+            "rue": "15 Rue de Versailles",
+            "codePostal": "78000",
+            "ville": "Versailles"
+        },
+        "numeroTelephone": "0123456780",
+        "mail": "amelie.dupont@example.com"
+    },
+    {
+        "nom": "Rousseau",
+        "prenom": "Léo",
+        "dateDeNaissance": "1988-11-22",
+        "adresse": {
+            "rue": "22 Rue de Lille",
+            "codePostal": "59000",
+            "ville": "Lille"
+        },
+        "numeroTelephone": "0123456781",
+        "mail": "leo.rousseau@example.com"
+    },
+    {
+        "nom": "Fournier",
+        "prenom": "Isabelle",
+        "dateDeNaissance": "1993-03-30",
+        "adresse": {
+            "rue": "30 Rue de Bordeaux",
+            "codePostal": "33000",
+            "ville": "Bordeaux"
+        },
+        "numeroTelephone": "0123456782",
+        "mail": "isabelle.fournier@example.com"
+    },
+    {
+        "nom": "Brunet",
+        "prenom": "Antoine",
+        "dateDeNaissance": "1994-07-16",
+        "adresse": {
+            "rue": "16 Rue de Nîmes",
+            "codePostal": "30000",
+            "ville": "Nîmes"
+        },
+        "numeroTelephone": "0123456783",
+        "mail": "antoine.brunet@example.com"
+    },
+    {
+        "nom": "Blanchet",
+        "prenom": "Émilie",
+        "dateDeNaissance": "1987-12-01",
+        "adresse": {
+            "rue": "1 Rue de Toulouse",
+            "codePostal": "31000",
+            "ville": "Toulouse"
+        },
+        "numeroTelephone": "0123456784",
+        "mail": "emilie.blanchet@example.com"
+    },
+    {
+        "nom": "Leclerc",
+        "prenom": "Julien",
+        "dateDeNaissance": "1990-09-09",
+        "adresse": {
+            "rue": "99 Rue de Rennes",
+            "codePostal": "35000",
+            "ville": "Rennes"
+        },
+        "numeroTelephone": "0123456785",
+        "mail": "julien.leclerc@example.com"
+    },
+    {
+        "nom": "Simon",
+        "prenom": "Aurélie",
+        "dateDeNaissance": "1992-02-20",
+        "adresse": {
+            "rue": "20 Rue de Dijon",
+            "codePostal": "21000",
+            "ville": "Dijon"
+        },
+        "numeroTelephone": "0123456786",
+        "mail": "aurelie.simon@example.com"
+    },
+    {
+        "nom": "Lecomte",
+        "prenom": "Marc",
+        "dateDeNaissance": "1985-04-04",
+        "adresse": {
+            "rue": "44 Rue de Reims",
+            "codePostal": "51100",
+            "ville": "Reims"
+        },
+        "numeroTelephone": "0123456787",
+        "mail": "marc.lecomte@example.com"
+    },
+    {
+        "nom": "Berger",
+        "prenom": "Charlotte",
+        "dateDeNaissance": "1996-06-06",
+        "adresse": {
+            "rue": "66 Rue de Lyon",
+            "codePostal": "69006",
+            "ville": "Lyon"
+        },
+        "numeroTelephone": "0123456788",
+        "mail": "charlotte.berger@example.com"
+    },
+    {
+        "nom": "Lambert",
+        "prenom": "Jean",
+        "dateDeNaissance": "1997-08-08",
+        "adresse": {
+            "rue": "88 Rue de Marseille",
+            "codePostal": "13008",
+            "ville": "Marseille"
+        },
+        "numeroTelephone": "0123456789",
+        "mail": "jean.lambert@example.com"
+    },
+    {
+        "nom": "Dubois",
+        "prenom": "Claire",
+        "dateDeNaissance": "1989-10-10",
+        "adresse": {
+            "rue": "1010 Rue de Montpellier",
+            "codePostal": "34000",
+            "ville": "Montpellier"
+        },
+        "numeroTelephone": "0123456790",
+        "mail": "claire.dubois@example.com"
+    },
+    {
+        "nom": "Moreau",
+        "prenom": "Elise",
+        "dateDeNaissance": "1994-12-12",
+        "adresse": {
+            "rue": "1212 Rue de Strasbourg",
+            "codePostal": "67000",
+            "ville": "Strasbourg"
+        },
+        "numeroTelephone": "0123456791",
+        "mail": "elise.moreau@example.com"
+    },
+    {
+        "nom": "Renard",
+        "prenom": "Paul",
+        "dateDeNaissance": "1986-01-01",
+        "adresse": {
+            "rue": "111 Rue de Nice",
+            "codePostal": "06000",
+            "ville": "Nice"
+        },
+        "numeroTelephone": "0123456792",
+        "mail": "paul.renard@example.com"
+    },
+    {
+        "nom": "Dupuis",
+        "prenom": "Sophie",
+        "dateDeNaissance": "1994-03-12",
+        "adresse": {
+            "rue": "123 Rue de Paris",
+            "codePostal": "75001",
+            "ville": "Paris"
+        },
+        "numeroTelephone": "0123456793",
+        "mail": "sophie.dupuis@example.com"
+    },
+    {
+        "nom": "Martin",
+        "prenom": "Thomas",
+        "dateDeNaissance": "1993-02-25",
+        "adresse": {
+            "rue": "456 Avenue Lyon",
+            "codePostal": "69000",
+            "ville": "Lyon"
+        },
+        "numeroTelephone": "0123456794",
+        "mail": "thomas.martin@example.com"
+    },
+    {
+        "nom": "Lefebvre",
+        "prenom": "Lucie",
+        "dateDeNaissance": "1995-05-07",
+        "adresse": {
+            "rue": "789 Boulevard Marseille",
+            "codePostal": "13000",
+            "ville": "Marseille"
+        },
+        "numeroTelephone": "0123456795",
+        "mail": "lucie.lefebvre@example.com"
+    },
+    {
+        "nom": "Moreau",
+        "prenom": "Julien",
+        "dateDeNaissance": "1992-08-10",
+        "adresse": {
+            "rue": "101 Rue de Nice",
+            "codePostal": "06000",
+            "ville": "Nice"
+        },
+        "numeroTelephone": "0123456796",
+        "mail": "julien.moreau@example.com"
+    },
+    {
+        "nom": "Bertrand",
+        "prenom": "Marie",
+        "dateDeNaissance": "1991-10-15",
+        "adresse": {
+            "rue": "102 Avenue Strasbourg",
+            "codePostal": "67000",
+            "ville": "Strasbourg"
+        },
+        "numeroTelephone": "0123456797",
+        "mail": "marie.bertrand@example.com"
+    },
+    {
+        "nom": "Gautier",
+        "prenom": "Antoine",
+        "dateDeNaissance": "1990-12-20",
+        "adresse": {
+            "rue": "103 Boulevard Montpellier",
+            "codePostal": "34000",
+            "ville": "Montpellier"
+        },
+        "numeroTelephone": "0123456798",
+        "mail": "antoine.gautier@example.com"
+    },
+    {
+        "nom": "Lecomte",
+        "prenom": "Émilie",
+        "dateDeNaissance": "1996-04-05",
+        "adresse": {
+            "rue": "104 Rue de Nîmes",
+            "codePostal": "30000",
+            "ville": "Nîmes"
+        },
+        "numeroTelephone": "0123456799",
+        "mail": "emilie.lecomte@example.com"
+    }
+]);
+# --43
+db.personnes.insert([
+    {
+        "nom": "Petit",
+        "prenom": "Alice",
+        "dateDeNaissance": "1975-04-04",
+        "adresse": {
+            "rue": "40 Rue de Bordeaux",
+            "codePostal": "33000",
+            "ville": "Bordeaux"
+        },
+        "numeroTelephone": "0123456792",
+        "mail": "alice.petit@example.com",
+        "metier": {
+            "nomMetier": "Réceptionniste",
+            "descriptionMetier": "Accueille les membres et gère les rendez-vous"
+        }
+    },
+    {
+        "nom": "Robert",
+        "prenom": "Jules",
+        "dateDeNaissance": "1970-05-05",
+        "adresse": {
+            "rue": "50 Rue de Nantes",
+            "codePostal": "44000",
+            "ville": "Nantes"
+        },
+        "numeroTelephone": "0123456793",
+        "mail": "jules.robert@example.com",
+        "metier": {
+            "nomMetier": "Réceptionniste",
+            "descriptionMetier": "Accueille les membres et gère les rendez-vous"
+        }
+    },
+    {
+        "nom": "Richard",
+        "prenom": "Louise",
+        "dateDeNaissance": "1965-06-06",
+        "adresse": {
+            "rue": "60 Rue de Toulouse",
+            "codePostal": "31000",
+            "ville": "Toulouse"
+        },
+        "numeroTelephone": "0123456794",
+        "mail": "louise.richard@example.com",
+        "metier": {
+            "nomMetier": "Instructeur de Yoga",
+            "descriptionMetier": "Enseigne le yoga et aide à la relaxation et la flexibilité"
+        }
+    },
+    {
+        "nom": "Lefebvre",
+        "prenom": "Maxime",
+        "dateDeNaissance": "1978-04-24",
+        "adresse": {
+            "rue": "140 Rue de Dijon",
+            "codePostal": "21000",
+            "ville": "Dijon"
+        },
+        "numeroTelephone": "0123456704",
+        "mail": "maxime.lefebvre@example.com",
+        "metier": {
+            "nomMetier": "Nutritionniste",
+            "descriptionMetier": "Fournit des conseils en nutrition et en régime alimentaire"
+        }
+    },
+    {
+        "nom": "Mercier",
+        "prenom": "Camille",
+        "dateDeNaissance": "1976-05-27",
+        "adresse": {
+            "rue": "150 Rue de Grenoble",
+            "codePostal": "38000",
+            "ville": "Grenoble"
+        },
+        "numeroTelephone": "0123456705",
+        "mail": "camille.mercier@example.com",
+        "metier": {
+            "nomMetier": "Instructeur de Pilates",
+            "descriptionMetier": "Conduit des cours de Pilates pour améliorer la posture et la force"
+        }
+    },
+    {
+        "nom": "Dupont",
+        "prenom": "Nicolas",
+        "dateDeNaissance": "1982-06-30",
+        "adresse": {
+            "rue": "160 Rue de Le Havre",
+            "codePostal": "76600",
+            "ville": "Le Havre"
+        },
+        "numeroTelephone": "0123456706",
+        "mail": "nicolas.dupont@example.com",
+        "metier": {
+            "nomMetier": "Technicien de maintenance",
+            "descriptionMetier": "Entretien et réparation des équipements de la salle"
+        }
+    },
+    {
+        "nom": "Gautier",
+        "prenom": "Théo",
+        "dateDeNaissance": "1984-08-20",
+        "adresse": {
+            "rue": "180 Rue de Toulon",
+            "codePostal": "83000",
+            "ville": "Toulon"
+        },
+        "numeroTelephone": "0123456708",
+        "mail": "theo.gautier@example.com",
+        "metier": {
+            "nomMetier": "Directeur de salle",
+            "descriptionMetier": "Gère les opérations quotidiennes et le personnel de la salle"
+        }
+    },
+    {
+        "nom": "Bertrand",
+        "prenom": "Hugo",
+        "dateDeNaissance": "1975-10-30",
+        "adresse": {
+            "rue": "200 Rue de Clermont-Ferrand",
+            "codePostal": "63000",
+            "ville": "Clermont-Ferrand"
+        },
+        "numeroTelephone": "0123456710",
+        "mail": "hugo.bertrand@example.com",
+        "metier": {
+            "nomMetier": "Kinésithérapeute",
+            "descriptionMetier": "Fournit des soins de rééducation et de réadaptation physique"
+        }
+    },
+    {
+        "nom": "Fontaine",
+        "prenom": "David",
+        "dateDeNaissance": "1982-12-12",
+        "adresse": {
+            "rue": "100 Rue de Lille",
+            "codePostal": "59000",
+            "ville": "Lille"
+        },
+        "numeroTelephone": "0123456798",
+        "mail": "david.fontaine@example.com",
+        "metier": {
+            "nomMetier": "Instructeur de Zumba",
+            "descriptionMetier": "Anime des cours de Zumba pour le fitness en groupe"
+        }
+    }
+]);
+
+db.machine.insert([
+    {    
+        "nom": "Tapis de course",
+        "type": "Cardio",
+        "dateFabrication": "2012-01-01",
+        "dateMaintenance": "2022-01-15"
+    },
+    {
+        "nom": "Vélo d'appartement",
+        "type": "Cardio",
+        "dateFabrication": "2012-02-01",
+        "dateMaintenance": "2022-01-20"
+    },
+    { 
+        "nom": "Rameur",
+        "type": "Cardio",
+        "dateFabrication": "2012-03-01",
+        "dateMaintenance": "2022-01-25"
+    },
+    {
+        "nom": "Presse à jambes",
+        "type": "Musculation",
+        "dateFabrication": "2013-04-01",
+        "dateMaintenance": "2022-02-10"
+    },
+    {
+        "nom": "Banc de musculation",
+        "type": "Musculation",
+        "dateFabrication": "2013-05-01",
+        "dateMaintenance": "2022-02-15"
+    },
+    {	
+        "nom": "Haltères",
+        "type": "Musculation",
+        "dateFabrication": "2013-06-01",
+        "dateMaintenance": "2022-02-20"
+    },
+    {	
+        "nom": "Machine à câbles",
+        "type": "Musculation",
+        "dateFabrication": "2014-07-01",
+        "dateMaintenance": "2022-03-05"
+    },
+    {	 
+        "nom": "Barre de traction",
+        "type": "Musculation",
+        "dateFabrication": "2014-08-01",
+        "dateMaintenance": "2022-03-10"
+    },
+    {	 
+        "nom": "Station de dips",
+        "type": "Musculation",
+        "dateFabrication": "2014-09-01",
+        "dateMaintenance": "2022-03-15"
+    },
+    {	 
+        "nom": "Vélo elliptique",
+        "type": "Cardio",
+        "dateFabrication": "2015-10-01",
+        "dateMaintenance": "2022-04-01"
+    },
+    {	 
+        "nom": "Tapis de course",
+        "type": "Cardio",
+        "dateFabrication": "2015-11-01",
+        "dateMaintenance": "2022-04-06"
+    },
+    {	 
+        "nom": "Rameur",
+        "type": "Cardio",
+        "dateFabrication": "2015-12-01",
+        "dateMaintenance": "2022-04-11"
+    },
+    {	 
+        "nom": "Presse à jambes",
+        "type": "Musculation",
+        "dateFabrication": "2016-01-01",
+        "dateMaintenance": "2022-04-16"
+    },
+    {	 
+        "nom": "Banc de musculation",
+        "type": "Musculation",
+        "dateFabrication": "2016-02-01",
+        "dateMaintenance": "2022-04-21"
+    },
+    {	
+        "nom": "Haltères",
+        "type": "Musculation",
+        "dateFabrication": "2016-03-01",
+        "dateMaintenance": "2022-04-26"
+    },
+    {	  
+        "nom": "Machine à câbles",
+        "type": "Musculation",
+        "dateFabrication": "2017-04-01",
+        "dateMaintenance": "2022-05-01"
+    },
+    {	 
+        "nom": "Barre de traction",
+        "type": "Musculation",
+        "dateFabrication": "2017-05-01",
+        "dateMaintenance": "2022-05-06"
+    },
+    {	
+        "nom": "Station de dips",
+        "type": "Musculation",
+        "dateFabrication": "2017-06-01",
+        "dateMaintenance": "2022-05-11"
+    }
+]);
+
+db.batiment.insert([
+    {   
+        "type": "Salle de sport",
+        "adresse": {
+            "rue": "123 Rue du Sport",
+            "codePostal": "75001",
+            "ville": "Paris"
+        },
+        "nomBatiment": "Sport Center 1",
+        "machine" :[
+        db.machine.find().limit(1).skip(1).next(),
+        db.machine.find().limit(1).skip(2).next(),
+        ]
+    },
+    {	
+	
+        "type": "Salle de sport",
+        "adresse": {
+            "rue": "456 Avenue Fitness",
+            "codePostal": "69002",
+            "ville": "Lyon"
+        },
+        "nomBatiment": "Fitness World 2",
+	"machine" :[
+        db.machine.find().limit(1).skip(3).next(),
+        db.machine.find().limit(1).skip(4).next(),
+        ]
+    },
+    {
+    	
+        "type": "Salle de sport",
+        "adresse": {
+            "rue": "789 Boulevard Gym",
+            "codePostal": "13003",
+            "ville": "Marseille"
+        },
+        "nomBatiment": "Gymnase 3",
+        "machine" :[
+        db.machine.find().limit(1).skip(5).next(),
+        db.machine.find().limit(1).skip(6).next(),
+        ]
+    },
+    {
+        "type": "Salle de sport",
+        "adresse": {
+            "rue": "101 Rue de l'Athlète",
+            "codePostal": "33000",
+            "ville": "Bordeaux"
+        },
+        "nomBatiment": "Athlete Club 4"
+    },
+    {
+    	
+        "type": "Salle de sport",
+        "adresse": {
+            "rue": "102 Avenue du Corps",
+            "codePostal": "31000",
+            "ville": "Toulouse"
+        },
+        "nomBatiment": "Body Fitness 5"
+    },
+    {
+    	
+        "type": "Salle de sport",
+        "adresse": {
+            "rue": "103 Boulevard de la Santé",
+            "codePostal": "75014",
+            "ville": "Paris"
+        },
+        "nomBatiment": "Health Gym 6"
+    },
+    {
+ 	
+        "type": "Salle de sport",
+        "adresse": {
+            "rue": "104 Rue du Muscle",
+            "codePostal": "69004",
+            "ville": "Lyon"
+        },
+        "nomBatiment": "Muscle Mania 7"
+    },
+    {
+        "type": "Salle de sport",
+        "adresse": {
+            "rue": "105 Avenue Endurance",
+            "codePostal": "13005",
+            "ville": "Marseille"
+        },
+        "nomBatiment": "Endurance Gym 8"
+    },
+    {
+    	
+        "type": "Salle de sport",
+        "adresse": {
+            "rue": "106 Boulevard Force",
+            "codePostal": "33006",
+            "ville": "Bordeaux"
+        },
+        "nomBatiment": "Force Fitness 9"
+    },
+    {
+
+        "type": "Siège social",
+        "adresse": {
+            "rue": "107 Rue du Siège",
+            "codePostal": "75007",
+            "ville": "Paris"
+        },
+        "nomBatiment": "Siège Social"
+    }
+]);
+
+
+db.cours.insert([
+    {
+        "nom": "Yoga pour débutants",
+        "nombreDePlace": 20,
+        "Animateur": db.personnes.find().limit(1).skip(43).next(),
+        "Participants": [
+            db.personnes.find().limit(1).skip(1).next(),
+            db.personnes.find().limit(1).skip(2).next(),
+            db.personnes.find().limit(1).skip(3).next(),
+            db.personnes.find().limit(1).skip(4).next(),
+        ],
+	"Batiment": db.batiment.find().limit(1).skip(1).next()
+    },
+    {
+        "nom": "Circuit Training Avancé",
+        "nombreDePlace": 15,
+	"Animateur": db.personnes.find().limit(1).skip(44).next(),
+        "Participants": [
+            db.personnes.find().limit(1).skip(5).next(),
+            db.personnes.find().limit(1).skip(6).next(),
+            db.personnes.find().limit(1).skip(7).next(),
+            db.personnes.find().limit(1).skip(8).next(),
+        ],
+	"Batiment": db.batiment.find().limit(1).skip(2).next()
+    },
+    {
+        "nom": "Pilates Intermédiaire",
+        "nombreDePlace": 10,
+	"Animateur": db.personnes.find().limit(1).skip(45).next(),
+        "Participants": [
+            db.personnes.find().limit(1).skip(9).next(),
+            db.personnes.find().limit(1).skip(10).next(),
+            db.personnes.find().limit(1).skip(11).next(),
+            db.personnes.find().limit(1).skip(12).next(),
+        ],
+	"Batiment": db.batiment.find().limit(1).skip(3).next()
+    },
+    {
+        "nom": "Zumba Fitness",
+        "nombreDePlace": 25,
+        "idAnimateur": db.personnes.find().limit(1).skip(46).next(),
+        "Participants": [
+            db.personnes.find().limit(1).skip(13).next(),
+            db.personnes.find().limit(1).skip(14).next(),
+            db.personnes.find().limit(1).skip(15).next(),
+            db.personnes.find().limit(1).skip(16).next(),
+        ],
+	"Batiment": db.batiment.find().limit(1).skip(4).next()
+    },
+    {
+        "nom": "Musculation 101",
+        "nombreDePlace": 30,
+        "idAnimateur": db.personnes.find().limit(1).skip(47).next(),
+        "Participants": [
+            db.personnes.find().limit(1).skip(17).next(),
+            db.personnes.find().limit(1).skip(18).next(),
+            db.personnes.find().limit(1).skip(19).next(),
+            db.personnes.find().limit(1).skip(20).next(),
+        ],
+	"Batiment": db.batiment.find().limit(1).skip(4).next()
+    },
+    {
+        "nom": "Cardio Kickboxing",
+        "nombreDePlace": 20,
+        "idAnimateur": db.personnes.find().limit(1).skip(48).next(),
+        "Participants": [
+           db.personnes.find().limit(1).skip(21).next(),
+           db.personnes.find().limit(1).skip(22).next(),
+           db.personnes.find().limit(1).skip(23).next(),
+           db.personnes.find().limit(1).skip(24).next(),
+        ],
+	"Batiment": db.batiment.find().limit(1).skip(5).next()
+    },
+    {
+        "nom": "CrossFit Niveau 1",
+        "nombreDePlace": 15,
+        "idAnimateur": db.personnes.find().limit(1).skip(49).next(),
+        "Participants": [
+            db.personnes.find().limit(1).skip(25).next(),
+            db.personnes.find().limit(1).skip(26).next(),
+            db.personnes.find().limit(1).skip(27).next(),
+            db.personnes.find().limit(1).skip(28).next(),
+        ],
+	"Batiment": db.batiment.find().limit(1).skip(6).next()
+    }
+]);
+
+ db.seances.insert([
+    {
+        "personne": db.personnes.find().limit(1).skip(1).next(),
+        "arrivee": ISODate("2024-01-30T06:00:00Z"),
+        "depart": ISODate("2024-01-30T07:30:00Z"),
+        "Machine": [
+            {
+                "info": db.machine.find().limit(1).skip(1).next(),
+                "stat": { "poidsMax": "50kg" }
+            },
+            {
+                "info": db.machine.find().limit(1).skip(2).next(),
+                "stat": { "poidsMax": "75kg" }
+            }
+        ],
+        "Batiment": db.batiment.find().limit(1).skip(1).next()
+    },
+    {
+        "personne": db.personnes.find().limit(1).skip(2).next(),
+        "arrivee": ISODate("2024-01-30T08:00:00Z"),
+        "depart": ISODate("2024-01-30T09:45:00Z"),
+        "Machine": [
+            {
+                "info": db.machine.find().limit(1).skip(3).next(),
+                "stat": { "poidsMax": "60kg" }
+            },
+            {
+                "info": db.machine.find().limit(1).skip(4).next(),
+                "stat": { "poidsMax": "40kg" }
+            }
+        ],
+        "Batiment": db.batiment.find().limit(1).skip(2).next()
+    },
+    {
+        "personne":db.personnes.find().limit(1).skip(1).next(),
+        "arrivee": ISODate("2024-01-30T08:00:00Z"),
+  	"depart":  ISODate("2024-01-30T09:45:00Z"),
+	"Machine": [
+        {
+            "info": db.machine.find().limit(1).skip(1).next(),
+            "stat": { "poidsMax": "35kg" }
+        }
+    ], 
+
+     "Batiment": db.batiment.find().limit(1).skip(1).next()
+    }
+]);
+
+
+

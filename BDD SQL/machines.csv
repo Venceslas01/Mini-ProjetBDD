@@ -1,0 +1,51 @@
+IDBatiment,nomMachine,typeMachine,dateFabrication,dateMaintenance
+,1,"Tapis de course",Cardio,2012-01-01,2022-01-15
+,2,"Vélo d'appartement",Cardio,2012-02-01,2022-01-20
+,3,"Rameur",Cardio,2012-03-01,2022-01-25
+,4,"Presse à jambes",Musculation,2013-04-01,2022-02-10
+,5,"Banc de musculation",Musculation,2013-05-01,2022-02-15
+,6,"Haltères",Musculation,2013-06-01,2022-02-20
+,7,"Machine à câbles",Musculation,2014-07-01,2022-03-05
+,8,"Barre de traction",Musculation,2014-08-01,2022-03-10
+,9,"Station de dips",Musculation,2014-09-01,2022-03-15
+,1,"Vélo elliptique",Cardio,2015-10-01,2022-04-01
+,2,"Tapis de course",Cardio,2015-11-01,2022-04-06
+,3,"Rameur",Cardio,2015-12-01,2022-04-11
+,4,"Presse à jambes",Musculation,2016-01-01,2022-04-16
+,5,"Banc de musculation",Musculation,2016-02-01,2022-04-21
+,6,"Haltères",Musculation,2016-03-01,2022-04-26
+,7,"Machine à câbles",Musculation,2017-04-01,2022-05-01
+,8,"Barre de traction",Musculation,2017-05-01,2022-05-06
+,9,"Station de dips",Musculation,2017-06-01,2022-05-11
+,1,"Vélo elliptique",Cardio,2018-07-01,2022-05-16
+,2,"Tapis de course",Cardio,2018-08-01,2022-05-21
+,3,"Rameur",Cardio,2018-09-01,2022-05-26
+,4,"Presse à jambes",Musculation,2019-10-01,2022-06-01
+,5,"Banc de musculation",Musculation,2019-11-01,2022-06-06
+,6,"Haltères",Musculation,2019-12-01,2022-06-11
+,7,"Machine à câbles",Musculation,2020-01-01,2022-06-16
+,8,"Barre de traction",Musculation,2020-02-01,2022-06-21
+,9,"Station de dips",Musculation,2020-03-01,2022-06-26
+,1,"Vélo elliptique",Cardio,2020-04-01,2022-07-01
+,2,"Tapis de course",Cardio,2020-05-01,2022-07-06
+,3,"Rameur",Cardio,2020-06-01,2022-07-11
+,4,"Presse à jambes",Musculation,2021-07-01,2022-07-16
+,5,"Banc de musculation",Musculation,2021-08-01,2022-07-21
+,6,"Haltères",Musculation,2021-09-01,2022-07-26
+,7,"Machine à câbles",Musculation,2021-10-01,2022-08-01
+,8,"Barre de traction",Musculation,2021-11-01,2022-08-06
+,9,"Station de dips",Musculation,2021-12-01,2022-08-11
+,1,"Vélo elliptique",Cardio,2022-01-01,2022-08-16
+,2,"Tapis de course",Cardio,2022-02-01,2022-08-21
+,3,"Rameur",Cardio,2022-03-01,2022-08-26
+,4,"Presse à jambes",Musculation,2022-04-01,2022-09-01
+,5,"Banc de musculation",Musculation,2022-05-01,2022-09-06
+,6,"Haltères",Musculation,2022-06-01,2022-09-11
+,7,"Machine à câbles",Musculation,2022-07-01,2022-09-16
+,8,"Barre de traction",Musculation,2022-08-01,2022-09-21
+,9,"Station de dips",Musculation,2022-09-01,2022-09-26
+,1,"Vélo elliptique",Cardio,2022-10-01,2022-10-01
+,2,"Tapis de course",Cardio,2022-11-01,2022-10-06
+,3,"Rameur",Cardio,2022-12-01,2022-10-11
+,4,"Presse à jambes",Musculation,2023-01-01,2022-10-16
+,5,"Banc de musculation",Musculation,2023-02-01,2022-10-21
